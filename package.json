@@ -26,7 +26,13 @@
     }
   },
   "dependencies": {
-    "vue": "^3.2.25"
+    "amfe-flexible": "^2.2.1",
+    "autoprefixer": "^10.4.2",
+    "axios": "^0.26.0",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.12",
+    "vuex": "^4.0.2",
+    "vuex-persistedstate": "^4.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^9.1.1",
@@ -42,9 +48,10 @@
     "eslint-plugin-vue": "^8.5.0",
     "husky": "^2.3.0",
     "lint-staged": "^9.5.0",
+    "postcss-pxtorem": "^6.0.0",
     "prettier": "^2.3.2",
     "typescript": "^4.5.4",
-    "vite": "^2.8.0",
+    "vite": "^2.8.4",
     "vue-tsc": "^0.29.8"
   }
 }
