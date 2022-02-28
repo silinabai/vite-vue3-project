@@ -1,0 +1,8 @@
+.vscode
+.idea
+node_modules
+lerna-debug.log
+packages/**/src
+tsconfig.json
+DS_Store
+
