@@ -1,5 +1,5 @@
 <template>
-    <div>我是首页</div>
+    <div class="test">我是首页</div>
 </template>
 <script lang="ts">
 import { defineComponent, onMounted } from 'vue';
@@ -16,3 +16,8 @@ export default defineComponent({
     },
 });
 </script>
+<style lang="less" scoped>
+.test {
+    font-size: 36px;
+}
+</style>

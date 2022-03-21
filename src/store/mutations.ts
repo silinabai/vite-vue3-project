@@ -1,8 +1,6 @@
-import { State } from '.';
-
 // 设置用户信息
 const setUserInfo = (
-    state: State,
+    state: any,
     // eslint-disable-next-line no-undef
     userInfo: any,
 ) => {

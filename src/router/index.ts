@@ -6,7 +6,7 @@ const Home = () => import('@/views/home/index.vue');
 // @ts-ignore
 const NODE_ENV = import.meta.env.NODE_ENV;
 
-const getRouteBasePath = () => (NODE_ENV === 'production' ? '/static/mk-h5-ink-screen/' : '/');
+const getRouteBasePath = () => (NODE_ENV === 'production' ? '/static/vite-vue3-project/' : '/');
 const routerHistory = createWebHashHistory(getRouteBasePath());
 const routes = [
     {
